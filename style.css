@@ -16,6 +16,28 @@
   justify-content: center;
   font-size: 14px;
 }
+.slide-link{
+  display: block;
+  width: 100%;
+  height: 100%;
+  flex: 0 0 100vw;
+}
+
+.item-link {
+  text-decoration: none;
+  color: inherit;        
+  display: block;        
+}
+
+.box-link {
+
+  display: flex; 
+  flex: 1;       
+  flex-direction: column;
+  text-decoration: none;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -107,12 +129,14 @@ hero{
   background: #ffffff;
 }
 .boxes{
+
   display: flex;
   width: 100%;
-  height: 600px;
+  min-height: 600px;
 }
 .left , .right{
-  width: 50%;
+  flex: 1;
+  width: 100%;
   height: 100%;
    color: #ffffff;
    text-align: center;
@@ -121,6 +145,7 @@ hero{
     background-size: cover;     
   background-repeat: no-repeat;   
   background-position: center;
+  
 }
 .left button {
   background: #ffffff;
@@ -167,6 +192,13 @@ hero{
 .text-box p {
   font-size: 15px;
   margin: 15px 0 25px;
+}
+.box-link {
+
+  display: flex; 
+  flex: 1 1 50%;       
+  flex-direction: column;
+  text-decoration: none;
 }
 
 .sports-section{
@@ -276,6 +308,7 @@ hero{
     width: 100%;
     height: 420px;   
     background-position: center;
+    flex: 1;
   }
 
   
@@ -309,7 +342,27 @@ hero{
   .spolight-grid{
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .box-link {
+    width: 100%;
+    height: 400px;
+    
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
