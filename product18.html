@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>product</title>
+        <style>
+.navbar {
+  background: #e3e3e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+ }
+
+.navlinks {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 14px;
+}
+.product-container {
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    align-items: center;
+}
+
+.product-image img {
+    width: 400px;
+}
+
+.product-details button {
+    padding: 12px 25px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .product-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .product-image img {
+        width: 80%;
+    }
+}
+
+        </style>
+    </head>
+    <body>
+        <header>
+        <nav class="navbar">
+           <ul class="navlinks">
+            <li>Men </li>
+            <li>Women</li> 
+            <li>Kids</li>
+            <li>Jorden</li>
+            <li>NikeSkims</li>
+            <li>Sports</li>
+            </ul>
+        </nav>
+        </header>
+
+        <div class="product-container">
+
+        <div class="product-image">
+            <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/05f09210-24a9-425d-ad98-e1779082ccd7/NIKE+ZOOM+PEGASUS+41+NY+JETS.png">
+        </div>
+
+        <div class="product-details">
+            <h1>Men's Nike NFL Road Running Shoes</h1>
+            <h2>$107</h2>
+            <p>Shown: Sport Green/Black/White
+Style: IB3207-300</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </body>
+</html>

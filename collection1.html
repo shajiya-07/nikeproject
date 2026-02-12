@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>collection page</title>
+
+        <style>
+.navbar {
+  background: #e3e3e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+ }
+
+.navlinks {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.collection-title {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 32px;
+}
+
+.collection-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 0 60px 60px 60px;
+}
+
+.product-card {
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.product-card img {
+    width: 100%;
+}
+
+.product-card a {
+    text-decoration: none;
+    color: black;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+    .collection-container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+    }
+}
+
+
+        </style>
+    </head>
+    <body>
+
+        <header>
+        <nav class="navbar">
+           <ul class="navlinks">
+            <li>Men </li>
+            <li>Women</li> 
+            <li>Kids</li>
+            <li>Jorden</li>
+            <li>NikeSkims</li>
+            <li>Sports</li>
+            </ul>
+        </nav>
+        </header>
+
+        <h1 class="collection-title">SLAM MEETS STYLE</h1>
+
+        <div class="collection-container">
+         
+            <div class="product-card">
+                <a href="product1.html">
+                    <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/06b8e07b-4f73-4988-951d-8929316b8d17/W+NKCT+DF+SLAM+DRESS+OZ.png" >
+                    <h3>Women's Dri-FIT Tennis Dress</h3>
+                    <p>$145</p>
+                </a>
+            </div>
+
+            <div class="product-card">
+                <a href="product2.html">
+                    <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/156a4501-efdd-4f10-9e20-990d64e24530/W+NK+DF+VCTRY+TANK.png" >
+                    <h3>Women's Dri-FIT Tennis Tank Top</h3>
+                    <p>$60</p>
+                </a>
+            </div>
+
+            <div class="product-card">
+                <a href="product3.html">
+                    <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/33d4df44-9917-4e47-b653-718ff65c9743/M+ZOOM+VAPOR+12+HC+PRM.png" >
+                    <h3>Men's Hard Court Tennis Shoes</h3>
+                    <p>$190</p>
+                </a>
+            </div>
+
+            <div class="product-card">
+                <a href="product4.html">
+                    <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/72ca9c1e-93a4-4997-a121-f4a11930c3a5/M+NKCT+DFADV+SLAM+POLO+MB.png" >
+                    <h3>Men's Slam Dri-FIT ADV Polo</h3>
+                    <p>$110</p>
+                </a>
+            </div>
+
+            <div class="product-card">
+                <a href="product5.html">
+                    <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/edf07d4a-838c-4c2c-8204-810f28b8a12a/W+ZOOM+GP+CHALLENGE+PRO+HC.png" >
+                    <h3>Women's Hard Court Tennis Shoes</h3>
+                    <p>$125</p>
+                </a>
+            </div>
+
+            <div class="product-card">
+                <a href="product6.html">
+                    <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/2832f52b-2232-4ec6-91d9-339f309730fe/W+NK+DF+SS+TEE+SLAM+OZ+BF+OS.png" >
+                    <h3>Women's Dri-FIT Tennis T-Shirt</h3>
+                    <p>$47</p>
+                </a>
+            </div>
+
+
+        </div>
+
+    </body>
+</html>

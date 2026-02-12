@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>product</title>
+        <style>
+.navbar {
+  background: #e3e3e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+ }
+
+.navlinks {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 14px;
+}
+.product-container {
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    align-items: center;
+}
+
+.product-image img {
+    width: 400px;
+}
+
+.product-details button {
+    padding: 12px 25px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .product-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .product-image img {
+        width: 80%;
+    }
+}
+
+        </style>
+    </head>
+    <body>
+        <header>
+        <nav class="navbar">
+           <ul class="navlinks">
+            <li>Men </li>
+            <li>Women</li> 
+            <li>Kids</li>
+            <li>Jorden</li>
+            <li>NikeSkims</li>
+            <li>Sports</li>
+            </ul>
+        </nav>
+        </header>
+
+        <div class="product-container">
+
+        <div class="product-image">
+            <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/06b8e07b-4f73-4988-951d-8929316b8d17/W+NKCT+DF+SLAM+DRESS+OZ.png">
+        </div>
+
+        <div class="product-details">
+            <h1>Women's Dri-FIT Tennis Dress</h1>
+            <h2>$145</h2>
+            <p>Make a splash at your next match with this stretchy, surf-inspired tennis dress. In honor of the Happy Slam Down Under, its ultra-smooth, sweat-wicking Dri-FIT fabric takes cues from wetsuits seen up and down the Australian coastline. Zip-up and get ready for the next set!</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </body>
+</html>

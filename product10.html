@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>product</title>
+        <style>
+.navbar {
+  background: #e3e3e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+ }
+
+.navlinks {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 14px;
+}
+.product-container {
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    align-items: center;
+}
+
+.product-image img {
+    width: 400px;
+}
+
+.product-details button {
+    padding: 12px 25px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .product-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .product-image img {
+        width: 80%;
+    }
+}
+
+        </style>
+    </head>
+    <body>
+        <header>
+        <nav class="navbar">
+           <ul class="navlinks">
+            <li>Men </li>
+            <li>Women</li> 
+            <li>Kids</li>
+            <li>Jorden</li>
+            <li>NikeSkims</li>
+            <li>Sports</li>
+            </ul>
+        </nav>
+        </header>
+
+        <div class="product-container">
+
+        <div class="product-image">
+            <img src="https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/93b613f8-c922-48ae-b164-df85ad3cdffe/JDN+PLAYGROUND+8P+L+DONCIC.png">
+        </div>
+
+        <div class="product-details">
+            <h1>Basketball</h1>
+            <h2>$35</h2>
+            <p>Bring play to the game. You don’t have to be the most serious player to be the one that everyone’s trying to keep up with. It’s your energy. You inspire teammates to have fun AND work hard on the court. Your Luka-esque cleverness and drive that make you hard to pin down and ready to go. Stay unpredictable. Durable rubber exterior means you're set to tear it up outdoors, and deep channels mean you get optimal control. So get out there and ball.</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </body>
+</html>

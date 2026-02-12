@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>product</title>
+        <style>
+.navbar {
+  background: #e3e3e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+ }
+
+.navlinks {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 14px;
+}
+.product-container {
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    align-items: center;
+}
+
+.product-image img {
+    width: 400px;
+}
+
+.product-details button {
+    padding: 12px 25px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .product-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .product-image img {
+        width: 80%;
+    }
+}
+
+        </style>
+    </head>
+    <body>
+        <header>
+        <nav class="navbar">
+           <ul class="navlinks">
+            <li>Men </li>
+            <li>Women</li> 
+            <li>Kids</li>
+            <li>Jorden</li>
+            <li>NikeSkims</li>
+            <li>Sports</li>
+            </ul>
+        </nav>
+        </header>
+
+        <div class="product-container">
+
+        <div class="product-image">
+            <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/edf07d4a-838c-4c2c-8204-810f28b8a12a/W+ZOOM+GP+CHALLENGE+PRO+HC.png">
+        </div>
+
+        <div class="product-details">
+            <h1>Women's Hard Court Tennis Shoes</h1>
+            <h2>$125</h2>
+            <p>Game. Set. Match. Come out on the winning side in the all-new GP Challenge Pro. Designed for baseline back-and-forth bolts and dashes to the net, it has the needed speed and stability to help your game go the distance. This special design sends you out to the Aussie coastline, where the scenic surf waves mix sweet and sour tones.</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </body>
+</html>
